@@ -10,11 +10,10 @@ plugins: [jekyll-paginate, 'kramdown']
 
 # edit here to achieve your personal greatness
 url: https://fromseedtoslice.com
-title: From Seed to Slice
+title: Seed to Slice
 author: Jonathan Jones
 description: A Home Grown Pizza Project
-profile_pic: profile.jpg
-avatar: avatar-blue.svg
+avatar: veggie-pizza-slice.png
 google_analytics: UA-58456683-1
 google_plus: JonathanJones646
 email: jjones646@gmail.com

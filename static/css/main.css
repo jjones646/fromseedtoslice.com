@@ -245,8 +245,9 @@ div.footer {
     text-align: center;
 }
 
-.img-thumbnail.jon {
-    height: 250px;
+.img-thumbnail.pizza {
+    height: 225px;
+    border: none;
 }
 
 .img-circle.jon {
