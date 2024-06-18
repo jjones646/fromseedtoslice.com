@@ -16,7 +16,7 @@ description: A Home Grown Pizza Project
 avatar: veggie-pizza-slice.png
 google_analytics: UA-58456683-1
 google_plus: JonathanJones646
-email: jjones646@gmail.com
+email: jjones646+fromseedtoslice@gmail.com
 github: jjones646
 linkedin: joncjones93
 keybase: jjones646
@@ -28,6 +28,3 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
-  - Rakefile
-  - config.ru
-  - vendor
