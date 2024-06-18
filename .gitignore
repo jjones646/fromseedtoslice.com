@@ -1,0 +1,17 @@
+# OS X
+.DS_Store
+
+# Jekyll build
+/_site/
+.jekyll-metadata
+
+# webstorm
+.idea/
+
+# others
+*.swp
+
+# sublime
+*.sublime-workspace
+
+.env

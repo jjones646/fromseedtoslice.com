@@ -1,0 +1,25 @@
+<div class="social">
+	<h4>
+    {% if site.github %}
+	  <a title="GitHub" href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+    {% endif %}
+    {% if site.email %}
+	  <a title="Email" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
+    {% endif %}
+    {% if site.twitter %}
+	  <a title="Twitter" href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+    {% if site.linkedin %}
+	  <a title="LinkedIn" href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+    {% if site.stackoverflow %}
+	  <a title="Stack Overflow" href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+    {% endif %}
+    {% if site.keybase %}
+      <a title="Keybase" href="https://keybase.io/{{ site.keybase }}"><i class="fa fa-key"></i></a>
+    {% endif %}
+    {% if site.google_plus %}
+      <a title="Google+" href="https://plus.google.com/+{{ site.google_plus }}"><i class="fa fa-google-plus"></i></a>
+    {% endif %}
+    </h4>
+</div>

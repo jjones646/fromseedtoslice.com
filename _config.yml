@@ -1,0 +1,34 @@
+# top level stuff
+highlighter: rouge
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title
+paginate: 5
+safe: true
+plugins: [jekyll-paginate, 'kramdown']
+
+# edit here to achieve your personal greatness
+url: https://fromseedtoslice.com
+title: Jonathan Jones
+author: Jonathan Jones
+description: A Home Grown Pizza Project
+profile_pic: profile.jpg
+avatar: avatar-blue.svg
+google_analytics: UA-58456683-1
+google_plus: JonathanJones646
+email: jjones646@gmail.com
+github: jjones646
+linkedin: joncjones93
+keybase: jjones646
+
+# needed for travis-ci build
+exclude:
+  - .gitignore
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - config.ru
+  - vendor
